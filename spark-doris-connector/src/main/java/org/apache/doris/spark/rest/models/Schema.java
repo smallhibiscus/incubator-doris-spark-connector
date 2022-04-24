@@ -25,7 +25,6 @@ public class Schema {
     private int status = 0;
     private String keysType;
     private List<Field> properties;
-    private String keysType;
 
     public Schema() {
         properties = new ArrayList<>();
@@ -41,14 +40,6 @@ public class Schema {
 
     public void setStatus(int status) {
         this.status = status;
-    }
-
-    public String getKeysType() {
-        return keysType;
-    }
-
-    public void setKeysType(String keysType) {
-        this.keysType = keysType;
     }
 
     public List<Field> getProperties() {
